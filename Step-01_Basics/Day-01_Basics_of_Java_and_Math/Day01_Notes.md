@@ -37,7 +37,7 @@ String line = sc.nextLine(); // full line
 ---
 
 ## Problem 1 — Count Digits in a Number
-**Platform Link:** [GFG — Count digits in a number](https://practice.geeksforgeeks.org/problems/count-digits5716/1)
+**Platform Links:** [GFG](https://practice.geeksforgeeks.org/problems/count-digits5716/1) \| [Coding Ninjas](https://www.codingninjas.com/studio/problems/count-digits_8416387)
 **Difficulty:** Easy
 
 ### Problem Statement
@@ -109,7 +109,7 @@ public class CountDigits {
 ---
 
 ## Problem 2 — Reverse a Number
-**Platform Link:** [LeetCode #7 — Reverse Integer](https://leetcode.com/problems/reverse-integer/)
+**Platform Links:** [LeetCode #7](https://leetcode.com/problems/reverse-integer/) \| [GFG](https://practice.geeksforgeeks.org/problems/reverse-digit0316/1) \| [Coding Ninjas](https://www.codingninjas.com/studio/problems/reverse-of-a-number_624652)
 **Difficulty:** Easy/Medium
 
 ### Problem Statement
@@ -164,7 +164,7 @@ Use `long` for `rev` to detect overflow before casting back to int.
 ---
 
 ## Problem 3 — Check Palindrome Number
-**Platform Link:** [LeetCode #9 — Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+**Platform Links:** [LeetCode #9](https://leetcode.com/problems/palindrome-number/) \| [GFG](https://practice.geeksforgeeks.org/problems/palindrome0746/1) \| [Coding Ninjas](https://www.codingninjas.com/studio/problems/palindrome-number_624662)
 **Difficulty:** Easy
 
 ### Problem Statement
@@ -218,7 +218,7 @@ public class PalindromeNumber {
 ---
 
 ## Problem 4 — Armstrong Number
-**Platform Link:** [GFG — Armstrong Numbers](https://practice.geeksforgeeks.org/problems/armstrong-numbers2727/1)
+**Platform Links:** [GFG](https://practice.geeksforgeeks.org/problems/armstrong-numbers2727/1) \| [Coding Ninjas](https://www.codingninjas.com/studio/problems/check-armstrong_589)
 **Difficulty:** Easy
 
 ### Problem Statement
@@ -265,7 +265,7 @@ public class ArmstrongNumber {
 ---
 
 ## Problem 5 — Print All Divisors of a Number
-**Platform Link:** [GFG — All divisors of a Number](https://practice.geeksforgeeks.org/problems/all-divisors-of-a-number/1)
+**Platform Links:** [GFG](https://practice.geeksforgeeks.org/problems/all-divisors-of-a-number/1) \| [Coding Ninjas](https://www.codingninjas.com/studio/problems/print-all-divisors-of-a-number_1164188)
 **Difficulty:** Easy
 
 ### Problem Statement
