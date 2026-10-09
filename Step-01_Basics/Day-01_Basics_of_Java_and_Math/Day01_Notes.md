@@ -106,6 +106,9 @@ public class CountDigits {
 | Loop | O(log N) | O(1) |
 | Math | O(1) | O(1) |
 
+### 💡 Note: Why can't we just use `num.length` on an integer?
+In Java, an `int` is a **primitive data type**, not an Object. It is stored as raw binary (e.g. 0s and 1s) in memory, not as individual digits. Therefore, it does not have built-in methods or properties like `.length`. To find the length using string methods, we must first convert it into an Object (a `String`) using `String.valueOf(n)`, which *does* have a `.length()` method!
+
 ---
 
 ## Problem 2 — Reverse a Number
