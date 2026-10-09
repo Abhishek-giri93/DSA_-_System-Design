@@ -322,6 +322,41 @@ public class PrintDivisors {
 
 ---
 
+## Problem 6 — Digits in N that divides it (String Input)
+**Platform Links:** [GFG](https://practice.geeksforgeeks.org/problems/count-digits5716/1) (String Variation)
+**Difficulty:** Easy
+
+### Problem Statement
+Given a number `N` as a `String`, count how many of its digits divide the number itself perfectly.
+
+### Java Solution (String Parsing)
+```java
+class Solution {
+    public int divisibleByDigits(String s) {
+        // Use Long.parseLong if the string might be larger than 2.1 billion
+        long num = Long.parseLong(s);
+        int count = 0;
+        
+        for(int i = 0; i < s.length(); i++){
+            // Convert character to integer (e.g., '2' - '0' = 2)
+            int n = s.charAt(i) - '0';
+            
+            // Ensure n is not zero to prevent division by zero exception!
+            if(n != 0 && num % n == 0){
+                count++;
+            }
+        }
+        return count;
+    }
+}
+```
+
+### Complexity
+- **Time:** `O(D)` where `D` is the length of the string (number of digits).
+- **Space:** `O(1)` as we only use a few variables.
+
+---
+
 ## Daily Summary
 | # | Problem | Difficulty | Key Concept | Status |
 |---|---------|------------|-------------|--------|
@@ -330,6 +365,7 @@ public class PrintDivisors {
 | 3 | Palindrome Number | Easy | Reverse half | ✅ |
 | 4 | Armstrong Number | Easy | Math.pow + digit count | ✅ |
 | 5 | Print All Divisors | Easy | sqrt(N) trick | ✅ |
+| 6 | Digits in N that divide it | Easy | Char to Int conversion | ✅ |
 
 ## Key Takeaways from Day 1
 1. Always think about **overflow** — use `long` when int might overflow
