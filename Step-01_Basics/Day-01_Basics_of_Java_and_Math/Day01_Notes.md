@@ -351,6 +351,37 @@ class Solution {
 }
 ```
 
+### Advanced Solution (For Extremely Large Strings)
+*If the string represents a massive number that exceeds `long` limits, we can calculate the modulo for all possible divisors (1-9) continuously as we read the string!*
+```java
+class Solution {
+    public int divisibleByDigits(String s) {
+        int count = 0;
+
+        // remainder[d] = number % d
+        int[] remainder = new int[10];
+
+        // Calculate remainder of the whole number for every possible digit 1 to 9
+        for (int i = 0; i < s.length(); i++) {
+            int digit = s.charAt(i) - '0';
+            for (int d = 1; d <= 9; d++) {
+                remainder[d] = (remainder[d] * 10 + digit) % d;
+            }
+        }
+
+        // Check each digit against our pre-calculated remainders
+        for (int i = 0; i < s.length(); i++) {
+            int digit = s.charAt(i) - '0';
+            if (digit != 0 && remainder[digit] == 0) {
+                count++;
+            }
+        }
+        return count;
+    }
+}
+```
+
+
 ### Complexity
 - **Time:** `O(D)` where `D` is the length of the string (number of digits).
 - **Space:** `O(1)` as we only use a few variables.
