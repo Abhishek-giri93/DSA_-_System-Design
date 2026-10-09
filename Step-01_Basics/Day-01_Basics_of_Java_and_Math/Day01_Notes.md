@@ -1,4 +1,4 @@
-﻿# Day 1 — Step 1: Basics of Java & Math
+# Day 1 — Step 1: Basics of Java & Math
 **Date:** 09 October 2026
 **Topic:** Java Fundamentals + Basic Math Problems
 **Target:** 5 Problems (Things to Know + Math)
@@ -37,7 +37,7 @@ String line = sc.nextLine(); // full line
 ---
 
 ## Problem 1 — Count Digits in a Number
-**LeetCode/GFG:** GFG — Count digits in a number
+**Platform Link:** [GFG — Count digits in a number](https://practice.geeksforgeeks.org/problems/count-digits5716/1)
 **Difficulty:** Easy
 
 ### Problem Statement
@@ -109,7 +109,7 @@ public class CountDigits {
 ---
 
 ## Problem 2 — Reverse a Number
-**LeetCode:** #7 — Reverse Integer
+**Platform Link:** [LeetCode #7 — Reverse Integer](https://leetcode.com/problems/reverse-integer/)
 **Difficulty:** Easy/Medium
 
 ### Problem Statement
@@ -164,7 +164,7 @@ Use `long` for `rev` to detect overflow before casting back to int.
 ---
 
 ## Problem 3 — Check Palindrome Number
-**LeetCode:** #9 — Palindrome Number
+**Platform Link:** [LeetCode #9 — Palindrome Number](https://leetcode.com/problems/palindrome-number/)
 **Difficulty:** Easy
 
 ### Problem Statement
@@ -218,7 +218,7 @@ public class PalindromeNumber {
 ---
 
 ## Problem 4 — Armstrong Number
-**GFG / LeetCode:** Check if Armstrong Number
+**Platform Link:** [GFG — Armstrong Numbers](https://practice.geeksforgeeks.org/problems/armstrong-numbers2727/1)
 **Difficulty:** Easy
 
 ### Problem Statement
@@ -265,7 +265,7 @@ public class ArmstrongNumber {
 ---
 
 ## Problem 5 — Print All Divisors of a Number
-**GFG:** Print all divisors
+**Platform Link:** [GFG — All divisors of a Number](https://practice.geeksforgeeks.org/problems/all-divisors-of-a-number/1)
 **Difficulty:** Easy
 
 ### Problem Statement
