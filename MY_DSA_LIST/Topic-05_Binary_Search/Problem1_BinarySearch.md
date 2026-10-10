@@ -1,4 +1,11 @@
-﻿# Problem 1: Binary Search (LeetCode 704)
+# Problem 1: Binary Search (LeetCode 704)
+
+### 🔗 Platform Practice Links:
+- **LeetCode (Problem 704):** [Binary Search](https://leetcode.com/problems/binary-search/)
+- **GeeksforGeeks (GFG):** [Binary Search Practice](https://practice.geeksforgeeks.org/problems/binary-search-1587115620/1)
+- **Coding Ninjas (Studio):** [Binary Search](https://www.codingninjas.com/studio/problems/binary-search_972)
+
+---
 
 ## 1. Problem Statement
 **What is the problem asking?**
